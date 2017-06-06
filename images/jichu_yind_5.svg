@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="54px" viewBox="0 0 47 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="65" height="65"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="基础设置" transform="translate(-1012.000000, -634.000000)">
+            <g id="Group-6" transform="translate(1002.000000, 627.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(12.000000, 9.000000)">
+                        <path d="M0.127726237,18.5329716 C3.04209874,7.7950495 11.3967481,0.0272340209 21.5,0.0272340209 C31.6032519,0.255661286 39.9578491,8.02353812 42.8722738,18.5329716 L0.127726237,18.5329716 Z" id="Fill-1-Copy" stroke="none" fill="#A2ECF3" fill-rule="evenodd"></path>
+                        <path d="M38.3744954,18.5329716 L0.127726237,18.5329716 C3.04209874,7.7950495 11.3967481,0.0272340209 21.5,0.0272340209 C31.6032519,0.255661286 39.9578491,8.02353812 42.8722738,18.5329716" id="Fill-1" stroke="#46676A" stroke-width="3" fill="none" stroke-linecap="round"></path>
+                        <polyline id="Fill-6-Copy" stroke="none" fill="#A2ECF3" fill-rule="evenodd" points="5.37363849 49.5965039 0.127726237 49.5965039 0.127726237 22.8659122 42.8722738 22.8659122 42.8722738 49.5965039 37.6263615 49.5965039"></polyline>
+                        <path d="M38.4337194,30.3571429 L4.47916667,30.3571429" id="Fill-5-Copy-5" stroke="#46676A" stroke-width="2" fill="none" stroke-linecap="round"></path>
+                        <path d="M38.4337194,37.2857143 L4.47916667,37.2857143" id="Fill-5-Copy" stroke="#46676A" stroke-width="2" fill="none" stroke-linecap="round"></path>
+                        <path d="M38.4337194,43.75 L4.47916667,43.75" id="Fill-5-Copy-3" stroke="#46676A" stroke-width="2" fill="none" stroke-linecap="round"></path>
+                        <path d="M5.37363849,49.5965039 L1.12679005,49.5965039 C0.57502234,49.5965039 0.127726237,49.1548465 0.127726237,48.5974188 L0.127726237,23.8649973 C0.127726237,23.3132178 0.578845854,22.8659122 1.1213983,22.8659122 L41.8786017,22.8659122 C42.4273916,22.8659122 42.8722738,23.3075695 42.8722738,23.8649973 L42.8722738,48.5974188 C42.8722738,49.1491982 42.4250102,49.5965039 41.87321,49.5965039 L37.6263615,49.5965039" id="Fill-6" stroke="#46676A" stroke-width="3" fill="none" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

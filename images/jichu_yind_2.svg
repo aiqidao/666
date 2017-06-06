@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="50px" viewBox="0 0 64 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="65" height="65"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="基础设置" transform="translate(-347.000000, -656.000000)">
+            <g id="Group-4" transform="translate(346.000000, 641.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group" mask="url(#mask-2)" stroke="#46676A">
+                    <g transform="translate(2.000000, -3.000000)">
+                        <path d="M51.7170117,59.0479628 L22.3752395,59.0479628 M18.0336518,50.1061189 L18.0336518,42.8424779 L18.0336518,12.2365755 L11.2733628,7.25218891" id="Rectangle-3" stroke-width="3" fill="none" stroke-linecap="round" transform="translate(31.495187, 33.260567) rotate(-30.000000) translate(-31.495187, -33.260567) "></path>
+                        <ellipse id="Oval-Copy" stroke-width="3" fill="#E2F8F9" fill-rule="evenodd" cx="28.9629295" cy="61.1936384" rx="4.57775769" ry="4.58537946"></ellipse>
+                        <path d="M55.7694604,47.9989844 L55.2550097,47.9989844 L30.0655464,47.9989844 C30.0047783,47.9989844 29.955516,47.9504598 29.955516,47.8874487 L29.955516,36.0669934 L29.955516,36.0669934 C29.955516,36.0053939 30.0049153,35.9554577 30.0657636,35.9554577 L59.076733,35.9554577 C59.1376211,35.9554577 59.1869807,36.0039824 59.1869807,36.0669934 L59.1869807,47.8874487" id="Rectangle-4" stroke-width="2" fill="#A2ECF3" fill-rule="evenodd" stroke-linecap="round" transform="translate(44.571248, 41.977221) rotate(-30.000000) translate(-44.571248, -41.977221) "></path>
+                        <path d="M36.7691696,35.7766286 L21.6085968,35.7766286 C21.5479216,35.7766286 21.4987346,35.7281039 21.4987346,35.6650928 L21.4987346,23.8446376 L21.4987346,23.8446376 C21.4987346,23.7830381 21.5472385,23.7331018 21.6091588,23.7331018 L40.6006047,23.7331018 C40.6615903,23.7331018 40.7110289,23.7816265 40.7110289,23.8446376 L40.7110289,35.6650928" id="Rectangle-4-Copy" stroke-width="2" fill="#A2ECF3" fill-rule="evenodd" stroke-linecap="round" transform="translate(31.104882, 29.754865) rotate(-30.000000) translate(-31.104882, -29.754865) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
