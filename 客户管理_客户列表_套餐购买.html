@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+		<![endif]-->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<title>快富通|客户管理｜套餐购买</title>		
+	    <meta name="description" content="快富通 大数据的分析师 青岛中瑞汽车服务有限公司">
+	    <meta name="author" content="快富通 轮子科技">
+	    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="css/main.css" />
+	    <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" />
+	    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="js/js.js" ></script>
+	    
+	</head>
+	<body class="index-head index-head2">
+		<nav class="navbar navbar-default" style="border-radius:0">
+			<div class="container">
+				<a class="navbar-brand float_n">
+					<svg width="118" height="42">
+					  <image xlink:href="images/logo.svg" src="images/logo.png" width="118" height="42" />
+					</svg>
+				</a>
+				<a class="navbar-brand navbar_b1 hidden-xs">美卓林汽车服务</a>
+				<a class="navbar-brand fl_right navbar_b1" href="javascript::"><i class="fa fa-envelope-o"></i></a>
+				<a class="navbar-brand fl_right navbar_b1" href="javascript::"><i class="fa fa-user"></i></a>
+			</div>
+		</nav>
+		<div class="overlay"></div>
+		<nav class="navbar navbar-inverse navbar-static-top hid-md" style="padding-bottom: 0;">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle pull-left collapsed" data-toggle="offcanvas">
+				<span class="sr-only">导航栏</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+			  <ul class="nav navbar-nav">
+				<li><a href="1.2.0_index.html">首页</a></li>
+				<li><a href="javascript::">收银台</a></li>
+				<li class="dropdown active">
+			       <a href="#" class="dropdown-toggle" data-toggle="dropdown">客户管理<b class="caret"></b></a>
+			       <ul class="dropdown-menu">
+			         <li><a href="#">jmeter</a></li>
+			         <li><a href="#">EJB</a></li>
+			         <li><a href="#">Jasper Report</a></li>
+			         <!--<li class="divider"></li>
+			         <li><a href="#">分离的链接</a></li>
+			         <li class="divider"></li>-->
+			         <li><a href="#">另一个分离的链接</a></li>
+			       </ul>
+			    </li>
+				<li><a href="javascript::">统计分析</a></li>
+				<li><a href="javascript::">信息维护</a></li>
+				<li><a href="javascript::">微信</a></li>				
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<div class="container cont_topb mag_b6">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-2">
+					<ul class="menu_left bor_rad2">
+						<li class="active"><a href="javascript::">客户列表</a></li>
+						<li><a href="javascript::">会员办理</a></li>
+						<li><a href="javascript::">充值记录</a></li>
+						<li><a href="javascript::">套餐购买记录</a></li>
+						<li><a href="javascript::">套餐核销记录</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-10">
+					<form class="Customer_s shadow_0 col-xs-12">
+						<p class="col-xs-12 col-md-6 pad_0">
+							<span class="Customer_s1">客户查询</span>
+							<input class="cd-popup-trigger" type="search" placeholder="输入姓名、手机号或车牌号查询" size="29"/>
+							<button type="submit">查询</button>
+						</p>
+					</form>
+					<div class="inform_r col-xs-12 inform_v">
+						<div class="col-sm-12 col-md-6">
+							<div class="col-xs-12 xfjl_1">
+								<label>客户类型</label>
+								<button class="active">不限</button>
+								<button>会员</button>
+								<button>非会员</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 back_whit inform_v1 tabrs" style="overflow-x: auto;">
+						<table id="cartTable" class="table inform_r7 table-hover watbi_1">
+							<thead>
+								<tr>
+									<th class="khlb_2">会员卡号</th>
+									<th>注册时间</th>
+									<th>客户姓名</th>
+									<th>车型</th>
+									<th>车牌号</th>
+									<th>余额</th>
+									<th>未到店天数</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>000912319</td>
+									<td>2016-05-12</td>
+									<td class="xfjl_6 khname_1">
+										<button>雷锋<span><i class="fa fa-vimeo-square"></i></span></button>
+									</td>
+									<td>阿斯顿 马丁</td>
+									<td>鲁B2345</td>
+									<td>20.00</td>
+									<td>3400</td>
+									<td>
+										<label class="switch-btn">
+											<input class="checked-switch" type="checkbox" />
+											<span class="text-switch" data-yes="yes"></span> 
+											<span class="toggle-btn"></span> 
+										</label>
+									</td>
+									<!--二次改动开始-->
+									<td class="khlb_1 khlb_2_1">
+										<button>详情</button>
+										<span class="select">
+											<p data-value="会员业务">会员业务</p>
+											<ul>
+												<li data-value="充值" class="">充值</li>
+												<li data-value="套餐" class="">套餐</li>
+												<li data-value="消费" class="Selected">消费</li>
+												<li data-value="积分" class="">积分</li>
+											</ul>
+										</span>
+										<span class="select">
+											<p data-value="账单信息">账单信息</p>
+											<ul>
+												<li data-value="消费记录" class="">消费记录</li>
+												<li data-value="充值记录" class="">充值记录</li>
+												<li data-value="积分纪录" class="">积分纪录</li>
+												<li data-value="套餐购买记录" class="Selected">套餐购买记录</li>
+												<li data-value="套餐核销记录" class="">套餐核销记录</li>
+											</ul>
+										</span>
+									</td>
+									<!--二次改动结束-->
+								</tr>
+								<tr>
+									<td>000912319</td>
+									<td>2016-05-12</td>
+									<td class="xfjl_6 khname_1">
+										<button>雷锋<span><i class="fa fa-vimeo-square"></i></span></button>
+									</td>
+									<td>阿斯顿 马丁</td>
+									<td>鲁B2345</td>
+									<td>20.00</td>
+									<td>3400</td>
+									<td>
+										<label class="switch-btn">
+											<input class="checked-switch" type="checkbox" checked="checked" />
+											<span class="text-switch" data-yes="yes"></span> 
+											<span class="toggle-btn"></span> 
+										</label>
+									</td>
+									<!--二次改动开始-->
+									<td class="khlb_1 khlb_2_1">
+										<button>详情</button>
+										<span class="select">
+											<p data-value="会员业务">会员业务</p>
+											<ul>
+												<li data-value="充值" class="">充值</li>
+												<li data-value="套餐" class="">套餐</li>
+												<li data-value="消费" class="Selected">消费</li>
+												<li data-value="积分" class="">积分</li>
+											</ul>
+										</span>
+										<span class="select">
+											<p data-value="账单信息">账单信息</p>
+											<ul>
+												<li data-value="消费记录" class="">消费记录</li>
+												<li data-value="充值记录" class="">充值记录</li>
+												<li data-value="积分纪录" class="">积分纪录</li>
+												<li data-value="套餐购买记录" class="Selected">套餐购买记录</li>
+												<li data-value="套餐核销记录" class="">套餐核销记录</li>
+											</ul>
+										</span>
+									</td>
+									<!--二次改动结束-->
+								</tr>
+								<tr>
+									<td>000912319</td>
+									<td>2016-05-12</td>
+									<td class="xfjl_6 khname_1">
+										<button>雷锋<span><i class="fa fa-vimeo-square"></i></span></button>
+									</td>
+									<td>阿斯顿 马丁</td>
+									<td>鲁B2345</td>
+									<td>20.00</td>
+									<td>3400</td>
+									<td>
+										<label class="switch-btn">
+											<input class="checked-switch" type="checkbox" />
+											<span class="text-switch" data-yes="yes"></span> 
+											<span class="toggle-btn"></span> 
+										</label>
+									</td>
+									<!--二次改动开始-->
+									<td class="khlb_1 khlb_2_1">
+										<button>详情</button>
+										<span class="select">
+											<p data-value="会员业务">会员业务</p>
+											<ul>
+												<li data-value="充值" class="">充值</li>
+												<li data-value="套餐" class="">套餐</li>
+												<li data-value="消费" class="Selected">消费</li>
+												<li data-value="积分" class="">积分</li>
+											</ul>
+										</span>
+										<span class="select">
+											<p data-value="账单信息">账单信息</p>
+											<ul>
+												<li data-value="消费记录" class="">消费记录</li>
+												<li data-value="充值记录" class="">充值记录</li>
+												<li data-value="积分纪录" class="">积分纪录</li>
+												<li data-value="套餐购买记录" class="Selected">套餐购买记录</li>
+												<li data-value="套餐核销记录" class="">套餐核销记录</li>
+											</ul>
+										</span>
+									</td>
+									<!--二次改动结束-->
+								</tr>
+								<tr>
+									<td>000912319</td>
+									<td>2016-05-12</td>
+									<td class="xfjl_6 khname_1">
+										<button>雷锋<span><i class="fa fa-vimeo-square"></i></span></button>
+									</td>
+									<td>阿斯顿 马丁</td>
+									<td>鲁B2345</td>
+									<td>20.00</td>
+									<td>3400</td>
+									<td>
+										<label class="switch-btn">
+											<input class="checked-switch" type="checkbox" />
+											<span class="text-switch" data-yes="yes"></span> 
+											<span class="toggle-btn"></span> 
+										</label>
+									</td>
+									<!--二次改动开始-->
+									<td class="khlb_1 khlb_2_1">
+										<button>详情</button>
+										<span class="select">
+											<p data-value="会员业务">会员业务</p>
+											<ul>
+												<li data-value="充值" class="">充值</li>
+												<li data-value="套餐" class="">套餐</li>
+												<li data-value="消费" class="Selected">消费</li>
+												<li data-value="积分" class="">积分</li>
+											</ul>
+										</span>
+										<span class="select">
+											<p data-value="账单信息">账单信息</p>
+											<ul>
+												<li data-value="消费记录" class="">消费记录</li>
+												<li data-value="充值记录" class="">充值记录</li>
+												<li data-value="积分纪录" class="">积分纪录</li>
+												<li data-value="套餐购买记录" class="Selected">套餐购买记录</li>
+												<li data-value="套餐核销记录" class="">套餐核销记录</li>
+											</ul>
+										</span>
+									</td>
+									<!--二次改动结束-->
+								</tr>
+								<tr>
+									<td>000912319</td>
+									<td>2016-05-12</td>
+									<td class="xfjl_6 khname_1">
+										<button>雷锋<span><i class="fa fa-vimeo-square"></i></span></button>
+									</td>
+									<td>阿斯顿 马丁</td>
+									<td>鲁B2345</td>
+									<td>20.00</td>
+									<td>3400</td>
+									<td>
+										<label class="switch-btn">
+											<input class="checked-switch" type="checkbox" />
+											<span class="text-switch" data-yes="yes"></span> 
+											<span class="toggle-btn"></span> 
+										</label>
+									</td>
+									<td class="khlb_1">
+										<button>充值</button>
+										<button>套餐</button>
+										<button>消费</button>
+										<span class="select">
+											<p data-value="账单信息">账单信息</p>
+											<ul>
+												<li data-value="消费记录" class="">消费记录</li>
+												<li data-value="充值记录" class="">充值记录</li>
+												<li data-value="套餐购买记录" class="Selected">套餐购买记录</li>
+												<li data-value="套餐核销记录" class="">套餐核销记录</li>
+											</ul>
+										</span>
+									</td>
+							</tbody>
+						</table>
+						<ul class="pagination bor_rad2 xfjl_9">
+							<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&lt;</span></a></li>
+						    <li class="active"><a href="#">1</a></li>
+						    <li><a href="#">2</a></li>
+						    <li><a href="#">3</a></li>
+						    <li><a href="#">4</a></li>
+						    <li><a href="#">..</a></li>
+						    <li><a href="#" aria-label="Next"><span aria-hidden="true">&gt;</span></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-10 col-md-6 col-lg-4 volume_f9 cous_2" style="display: none;">
+						<div class="col-xs-12 inform_r91">套餐购买</div>
+						<div class="col-xs-12 hycz_1">
+							<form>
+								<div class="col-xs-4 hycz_2">会员号</div>
+								<div class="col-xs-8 t_ind05 hycz_2">XXX8887192</div>
+								<div class="col-xs-4 hycz_2">姓名</div>
+								<div class="col-xs-8 t_ind05 hycz_2">雷锋</div>
+								<div class="col-xs-4 hycz_2">手机</div>
+								<div class="col-xs-8 t_ind05 hycz_2">13712345678</div>
+								<div class="col-xs-4 hycz_2">会员余额</div>
+								<div class="col-xs-8 t_ind05 hycz_2">1000.00</div>
+							</form>
+						</div>	
+						<div class="col-xs-12 inform_r91 inform_r92">
+							<form>
+								<div class="col-xs-12 inform_r93 inform_r94 pad_rlt">
+									<div class="col-xs-4">套餐选择</div>
+									<div class="col-xs-8 select">
+										<p data-value="请选择">请选择</p>
+										<ul class="pad_rlt15">
+											<li data-value="超值套餐" class="">超值套餐</li>
+											<li data-value="中" class="">中</li>
+											<li data-value="话" class="Selected">话</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-12 inform_r93 inform_r94 pad_rlt">
+									<div class="col-xs-4">支付方式</div>
+									<div class="col-xs-8 select">
+										<p data-value="会员余额">会员余额</p>
+										<ul class="pad_rlt15">
+											<li data-value="保养-机油" class="">保养-机油</li>
+											<li data-value="中" class="">中</li>
+											<li data-value="话" class="Selected">话</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-12 inform_r93 pad_rlt">
+									<div class="col-xs-4">套餐原价</div>
+									<div class="col-xs-8 t_ind05"><input type="text" placeholder="200.00" disabled="disabled"><i class="fa fa-jpy"></i></div>
+								</div>
+								<div class="col-xs-12 inform_r93 pad_rlt">
+									<div class="col-xs-4">实际支付</div>
+									<div class="col-xs-8 t_ind05"><input type="text" placeholder="190.00"><i class="fa fa-jpy"></i></div>
+								</div>
+								<div class="col-xs-12 inform_r93 pad_rlt">
+									<div class="col-xs-4">套餐积分</div>
+									<div class="col-xs-8 t_ind05"><label class="hycz_2_1">9400</label><i class="fa">分</i></div>
+								</div>
+								<div class="col-xs-12 inform_r93 inform_r95 pad_rlt">
+									<button>取消</button>
+									<button>购买</button>
+								</div>
+							</form>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scroll_s"><svg><image xlink:href="images/head_er.svg" src="images/head_er.png" width="60" height="60" /></svg></div>
+		<div class="footer_1">
+			<div class="container">
+				<a class="navbar-brand">
+					<svg width="72" height="26">
+					  <image xlink:href="images/logo_header.svg" src="images/logo_header.png" width="72" height="26" />
+					</svg>
+				</a>
+				<a class="foot_a" href="javascript::" target="_blank">关于中瑞</a>
+				<a class="foot_a" href="javascript::" target="_blank">服务协议</a>
+				<a class="foot_a" href="javascript::" target="_blank">联系我们</a>
+				<a class="foot_a pull-right">©2016 轮子科技   鲁ICP备14035434号-1</a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">		 
+		$(function(){
+			$(".select > p").click(function(e){
+				$(this).parent().toggleClass('open');
+				e.stopPropagation();
+			});
+			$(".select ul li").click(function(e){
+				var _this=$(this);
+				$(this).parent().parent().find("p").text(_this.attr('data-value'));
+				_this.addClass("Selected").siblings().removeClass("Selected");
+				$(".select").removeClass("open");
+				e.stopPropagation();
+			});
+			$(document).on('click',function(){
+				$(".select").removeClass("open");
+			});
+			$(".cous_2").click(function(e) {
+				e?e.stopPropagation():event.cancelBubble = true;
+			});
+			$(document).click(function() {
+				$(".cous_2").fadeOut();
+			});
+		});				
+	</script>
+</html>
