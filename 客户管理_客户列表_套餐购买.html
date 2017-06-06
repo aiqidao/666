@@ -13,8 +13,8 @@
 	    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" />
 	    <link rel="stylesheet" href="css/main.css" />
 	    <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" />
-	    <script type="text/javascript" src="js/jquery.min.js"></script>
-	    <script type="text/javascript" src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	    <script type="text/javascript" src="js/js.js" ></script>
 	    
 	</head>
@@ -396,10 +396,11 @@
 			</div>
 		</div>
 	</body>
-	<script type="text/javascript">		 
+	<script type="text/javascript">
 		$(function(){
 			$(".select > p").click(function(e){
-				$(this).parent().toggleClass('open');
+				$(this).parent().toggleClass('open').siblings(".select").removeClass('open');				
+				$(this).parents("tr").siblings("tr").find(".select").removeClass('open');
 				e.stopPropagation();
 			});
 			$(".select ul li").click(function(e){
